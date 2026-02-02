@@ -1,60 +1,95 @@
 layout: {zmk_keyboard: levels54}
 layers:
-  Colemak DH:
-  - - {t: '~', h: Brogram}
-    - '1'
-    - '2'
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
-  - - '0'
-    - {t: '''', h: Brogram}
-    - LEFT ALT
-    - Q
-    - W
-    - F
-    - P
+  Base:
+  - ['~', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  - ['0', '`', TAB, Q, W, E, R, T, Y, U]
+  - [I, O, P, BSPC, LCTRL, A, S, D, F, G]
+  - [H, J, K, L, ;, '''', LSHFT, Z, X, C]
+  - - V
     - B
-    - J
-    - L
-  - - U
-    - Y
-    - ;
-    - {t: \, h: RIGHT ALT}
-    - {t: LEFT SHIFT, h: sticky}
-    - {t: A, h: LEFT GUI}
-    - {t: R, h: LEFT ALT}
-    - {t: S, h: LCTRL}
-    - {t: T, h: LEFT SHIFT}
-    - G
-  - - M
-    - {t: N, h: RIGHT SHIFT}
-    - {t: E, h: RCTRL}
-    - {t: I, h: RIGHT ALT}
-    - {t: O, h: RGUI}
-    - {t: RIGHT SHIFT, h: sticky}
-    - LCTRL
-    - Z
-    - X
-    - C
-  - - D
-    - V
-    - K
-    - H
+    - N
+    - M
     - ','
     - .
-    - {t: /, h: Media}
-    - RCTRL
-    - LEFT GUI
-    - {t: ESCAPE, h: Navi}
-  - - {t: SPACE, h: Mouse}
-    - {t: RET, h: Numbers}
-    - BACKSPACE
-    - {t: DELETE, h: Function}
+    - /
+    - ESC
+    - {t: LGUI, h: Mouse}
+    - Lower
+  - [SPACE, RET, Raise, RALT]
+  Lower:
+  - ['~', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  - ['0', '`', TAB, '1', '2', '3', '4', '5', '6', '7']
+  - - '8'
+    - '9'
+    - '0'
+    - BSPC
+    - BT CLR
+    - {t: BT, h: '0'}
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: BT, h: '3'}
+    - {t: BT, h: '4'}
+  - - LEFT
+    - DOWN
+    - UP
+    - RIGHT
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - LSHFT
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: LGUI, h: Mouse}
+    - {type: held}
+  - - SPACE
+    - RET
+    - {t: ▽, type: trans}
+    - RALT
+  Raise:
+  - ['~', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  - ['0', '`', TAB, '!', '@', '#', $, '%', ^, '&']
+  - - KP MULTIPLY
+    - (
+    - )
+    - BSPC
+    - LCTRL
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - '-'
+    - '='
+    - '['
+    - ']'
+    - \
+    - '`'
+    - LSHFT
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - _
+    - +
+    - '{'
+    - '}'
+    - '|'
+    - '~'
+    - {t: LGUI, h: Mouse}
+    - {t: ▽, type: trans}
+  - - SPACE
+    - RET
+    - {type: held}
+    - RALT
   Mouse:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -87,31 +122,6 @@ layers:
     - '&mkp LCLK'
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - RSHFT
-    - RCTRL
-    - RALT
-    - RGUI
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - COPY
-  - - PASTE
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - HOME
-    - END
-    - PAGE DOWN
-    - PAGE UP
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {type: held}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  Numbers:
-  - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -124,218 +134,14 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - '*'
-    - '7'
-    - '8'
-    - '9'
-    - /
-    - \
-    - (
-  - - )
-    - '|'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - '-'
-    - '4'
-    - '5'
-    - {t: '6', h: LEFT SHIFT}
-    - +
-  - - '%'
-    - {t: '{', h: RSHFT}
-    - {t: '}', h: RCTRL}
-    - {t: ':', h: RALT}
-    - {t: ;, h: RGUI}
-    - ''
-    - {t: ▽, type: trans}
-    - '`'
-    - '1'
-    - '2'
-  - - '3'
-    - '='
-    - {t: ▽, type: trans}
-    - '['
-    - ']'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - '0'
-  - - {t: ▽, type: trans}
-    - {type: held}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  Function:
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - F7
-    - F8
-    - F9
-    - F10
-    - F11
-    - F12
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - F1
-    - F2
-    - F3
-    - F4
-    - F5
-    - F6
-  - - {t: ▽, type: trans}
-    - RSHFT
-    - RCTRL
-    - RALT
-    - RGUI
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
-  Navi:
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - LEFT GUI
-    - LEFT ALT
-    - LCTRL
-    - LEFT SHIFT
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - LEFT
-    - DOWN
-    - UP
-    - RIGHT
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - Sft+COPY
-    - PASTE
-    - {t: ▽, type: trans}
-    - HOME
-    - END
-    - PAGE DOWN
-    - PAGE UP
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {type: held}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  Brogram:
-  - - {type: held}
-    - '&studio_unlock'
-    - ''
-    - ''
-    - ''
-    - '&bootloader'
-    - '&bootloader'
-    - ''
-    - ''
-    - ''
-  - ['', '', '', '', '', '', '', '', '', '&bt_profile1']
-  - ['&bt_profile2', '&bt_profile3', '&bt_profile4', '', '', '', '', '', '', '&sys_reset']
-  - - '&sys_reset'
-    - ''
-    - ''
-    - ''
-    - ''
-    - ''
-    - {t: Colemak DH, h: toggle}
-    - ''
-    - ''
-    - ''
-  - ['', '', '', '', '', BT CLR ALL, OUT TOG, BT CLR, '', '']
-  - ['', '', '', '']
-  Media:
-  - ['', '', '', '', '', '', '', '', '', '']
-  - ['', '', '', '', '', '', '', '', '', '']
-  - ['', '', '', '', '', PREV, VOLUME DOWN, PLAY PAUSE, VOLUME UP, NEXT]
-  - ['', '', '', '', '', '', '', '', '', '']
-  - - ''
-    - ''
-    - ''
-    - ''
-    - ''
-    - ''
-    - {type: held}
-    - ''
-    - ''
-    - ''
-  - ['', '', '', '']
-combos:
-- p: [15, 20]
-  k: ''''
-- p: [16, 19]
-  k: '"'
-- p: [43, 44]
-  k: '-'
-- p: [44, 45]
-  k: _
-- p: [14, 21]
-  k: TAB
-- p: [40, 43]
-  k: '&caps_word'
-- p: [28, 31]
-  k: '&skinnyarrow'
-- p: [28, 31, 32]
-  k: '&fatarrow'
-- p: [29, 30]
-  k: '&pipeopr'
-- p: [50, 14]
-  k: '&vimsave'
-- p: [27, 32]
-  k: SPACE
