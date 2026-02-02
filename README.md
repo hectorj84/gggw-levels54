@@ -44,3 +44,6 @@ Control without compromise.
 - HT-PLA Cases (Black walnut bottom on Endgame)
 - Nylon 11 Trackball Carrier and power switches
 - Brass Heat Set Inserts
+
+### Default Firmware Keymap
+![Keymap](keymap-drawer/levels54.svg)
