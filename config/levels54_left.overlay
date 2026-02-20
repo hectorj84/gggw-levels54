@@ -1,6 +1,6 @@
 &trackball_peripheral_split {
     device = <&trackball_peripheral>;
     input-processors
-      = <&zip_xy_scaler (-1) (-1)>
+      = <&zip_xy_scaler (1) (1)>
       , <&zip_ble_report_rate_limit>;
 };
