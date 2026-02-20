@@ -1,6 +1,13 @@
+&spi0 {
+    trackball_peripheral: trackball_peripheral@0 {
+        x-invert;
+        y-invert;
+    };
+};
+
 &trackball_peripheral_split {
     device = <&trackball_peripheral>;
     input-processors
-      = <&zip_xy_scaler (1) (1)>
-      , <&zip_ble_report_rate_limit>;
+      = <&zip_ble_report_rate_limit>;
 };
+

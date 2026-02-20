@@ -1,8 +1,14 @@
+&spi0 {
+    trackball_peripheral: trackball_peripheral@0 {
+        x-invert;
+        y-invert;
+    };
+};
+
 &trackball_central_listener {
     status = "okay";
     device = <&trackball_central>;
     input-processors 
       = <&zip_xy_to_scroll_mapper>
-      , <&zip_xy_scaler (1) (1)>
       , <&zip_ble_report_rate_limit>;
 };
