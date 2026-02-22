@@ -134,20 +134,20 @@ def create_levels54_keymap():
     for layer_name, layer_keys in layers.items():
         levels54_keys = ["&none"] * 54
         
-        # Row 1 (Top letter row) -> maps to keys 12-16, 19-23
-        # Leaving the inner columns (17, 18) empty.
-        levels54_keys[12] = layer_keys[0]; levels54_keys[13] = layer_keys[1]; levels54_keys[14] = layer_keys[2]; levels54_keys[15] = layer_keys[3]; levels54_keys[16] = layer_keys[4]
-        levels54_keys[19] = layer_keys[5]; levels54_keys[20] = layer_keys[6]; levels54_keys[21] = layer_keys[7]; levels54_keys[22] = layer_keys[8]; levels54_keys[23] = layer_keys[9]
+        # Row 1 (Top letter row) -> maps to keys 13-17, 18-22
+        # Leaving the outer keys (12, 23) empty.
+        levels54_keys[13] = layer_keys[0]; levels54_keys[14] = layer_keys[1]; levels54_keys[15] = layer_keys[2]; levels54_keys[16] = layer_keys[3]; levels54_keys[17] = layer_keys[4]
+        levels54_keys[18] = layer_keys[5]; levels54_keys[19] = layer_keys[6]; levels54_keys[20] = layer_keys[7]; levels54_keys[21] = layer_keys[8]; levels54_keys[22] = layer_keys[9]
         
-        # Row 2 (Home row) -> maps to keys 24-28, 31-35
-        # Leaving the inner columns (29, 30) empty.
-        levels54_keys[24] = layer_keys[10]; levels54_keys[25] = layer_keys[11]; levels54_keys[26] = layer_keys[12]; levels54_keys[27] = layer_keys[13]; levels54_keys[28] = layer_keys[14]
-        levels54_keys[31] = layer_keys[15]; levels54_keys[32] = layer_keys[16]; levels54_keys[33] = layer_keys[17]; levels54_keys[34] = layer_keys[18]; levels54_keys[35] = layer_keys[19]
+        # Row 2 (Home row) -> maps to keys 25-29, 30-34
+        # Leaving the outer keys (24, 35) empty.
+        levels54_keys[25] = layer_keys[10]; levels54_keys[26] = layer_keys[11]; levels54_keys[27] = layer_keys[12]; levels54_keys[28] = layer_keys[13]; levels54_keys[29] = layer_keys[14]
+        levels54_keys[30] = layer_keys[15]; levels54_keys[31] = layer_keys[16]; levels54_keys[32] = layer_keys[17]; levels54_keys[33] = layer_keys[18]; levels54_keys[34] = layer_keys[19]
         
-        # Row 3 (Bottom letter row) -> maps to keys 36-40, 43-47
-        # Leaving the inner columns (41, 42) empty.
-        levels54_keys[36] = layer_keys[20]; levels54_keys[37] = layer_keys[21]; levels54_keys[38] = layer_keys[22]; levels54_keys[39] = layer_keys[23]; levels54_keys[40] = layer_keys[24]
-        levels54_keys[43] = layer_keys[25]; levels54_keys[44] = layer_keys[26]; levels54_keys[45] = layer_keys[27]; levels54_keys[46] = layer_keys[28]; levels54_keys[47] = layer_keys[29]
+        # Row 3 (Bottom letter row) -> maps to keys 37-41, 42-46
+        # Leaving the outer keys (36, 47) empty.
+        levels54_keys[37] = layer_keys[20]; levels54_keys[38] = layer_keys[21]; levels54_keys[39] = layer_keys[22]; levels54_keys[40] = layer_keys[23]; levels54_keys[41] = layer_keys[24]
+        levels54_keys[42] = layer_keys[25]; levels54_keys[43] = layer_keys[26]; levels54_keys[44] = layer_keys[27]; levels54_keys[45] = layer_keys[28]; levels54_keys[46] = layer_keys[29]
         
         # Thumb row -> maps to keys 48-50, 51-53
         # In Miryoku thumb keys are K32, K33, K34 and K35, K36, K37
