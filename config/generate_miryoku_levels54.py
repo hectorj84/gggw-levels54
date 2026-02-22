@@ -11,31 +11,31 @@ def create_levels54_keymap():
             "&none",             "&none",             "&lt 3 DEL",         "&lt 2 BSPC",        "&lt 5 RET",         "&lt 4 TAB",         "&lt 1 SPACE",       "&lt 7 ESC",         "&none",             "&none"
         ],
         "Nav": [
-            "&bootloader",       "&to 8",             "&to 9",             "&to 0",             "&none",             "&kp INS",           "&kp HOME",          "&kp PG_DN",         "&kp PG_UP",         "&kp END",
+            "&bootloader",       "&none",             "&none",             "&to 0",             "&none",             "&kp INS",           "&kp HOME",          "&kp PG_DN",         "&kp PG_UP",         "&kp END",
             "&kp LGUI",          "&kp LALT",          "&kp LCTRL",         "&kp LSHFT",         "&none",             "&caps_word",        "&kp LEFT",          "&kp DOWN",          "&kp UP",            "&kp RIGHT",
             "&none",             "&kp RALT",          "&to 2",             "&to 1",             "&none",             "&none",             "&kp HOME",          "&kp PG_DN",         "&kp PG_UP",         "&kp END",
             "&none",             "&none",             "&none",             "&none",             "&none",             "&kp RET",           "&kp BSPC",          "&kp DEL",           "&none",             "&none"
         ],
         "Num": [
-            "&kp LBKT",          "&kp N7",            "&kp N8",            "&kp N9",            "&kp RBKT",          "&none",             "&to 0",             "&to 9",             "&to 8",             "&bootloader",
+            "&kp LBKT",          "&kp N7",            "&kp N8",            "&kp N9",            "&kp RBKT",          "&none",             "&to 0",             "&none",             "&none",             "&bootloader",
             "&kp SEMI",          "&kp N4",            "&kp N5",            "&kp N6",            "&kp EQUAL",         "&none",             "&kp LSHFT",         "&kp LCTRL",         "&kp LALT",          "&kp LGUI",
             "&kp GRAVE",         "&kp N1",            "&kp N2",            "&kp N3",            "&kp BSLH",          "&none",             "&to 2",             "&to 1",             "&kp RALT",          "&none",
             "&none",             "&none",             "&kp DOT",           "&kp N0",            "&kp MINUS",         "&none",             "&none",             "&none",             "&none",             "&none"
         ],
         "Sym": [
-            "&kp LBRC",          "&kp AMPS",          "&kp ASTRK",         "&kp LPAR",          "&kp RBRC",          "&none",             "&to 0",             "&to 9",             "&to 8",             "&bootloader",
+            "&kp LBRC",          "&kp AMPS",          "&kp ASTRK",         "&kp LPAR",          "&kp RBRC",          "&none",             "&to 0",             "&none",             "&none",             "&bootloader",
             "&kp COLON",         "&kp DLLR",          "&kp PRCNT",         "&kp CARET",         "&kp PLUS",          "&none",             "&kp LSHFT",         "&kp LCTRL",         "&kp LALT",          "&kp LGUI",
             "&kp TILDE",         "&kp EXCL",          "&kp AT",            "&kp HASH",          "&kp PIPE",          "&none",             "&to 5",             "&to 4",             "&kp RALT",          "&none",
             "&none",             "&none",             "&kp LPAR",          "&kp RPAR",          "&kp UNDER",         "&none",             "&none",             "&none",             "&none",             "&none"
         ],
         "Mouse": [
-            "&bootloader",       "&to 8",             "&to 9",             "&to 0",             "&none",             "&none",             "&none",             "&none",             "&none",             "&none",
+            "&bootloader",       "&none",             "&none",             "&to 0",             "&none",             "&none",             "&none",             "&none",             "&none",             "&none",
             "&kp LGUI",          "&kp LALT",          "&kp LCTRL",         "&kp LSHFT",         "&none",             "&none",             "&none",             "&none",             "&none",             "&none",
             "&none",             "&kp RALT",          "&to 5",             "&to 4",             "&none",             "&none",             "&none",             "&none",             "&none",             "&none",
             "&none",             "&none",             "&none",             "&none",             "&none",             "&mkp RCLK",         "&mkp LCLK",         "&mkp MCLK",         "&none",             "&none"
         ],
         "Media": [
-            "&bootloader",       "&to 8",             "&to 9",             "&to 0",             "&none",             "&rgb_ug RGB_TOG",   "&rgb_ug RGB_EFF",   "&rgb_ug RGB_HUI",   "&rgb_ug RGB_SAI",   "&rgb_ug RGB_BRI",
+            "&bootloader",       "&none",             "&none",             "&to 0",             "&none",             "&rgb_ug RGB_TOG",   "&rgb_ug RGB_EFF",   "&rgb_ug RGB_HUI",   "&rgb_ug RGB_SAI",   "&rgb_ug RGB_BRI",
             "&kp LGUI",          "&kp LALT",          "&kp LCTRL",         "&kp LSHFT",         "&none",             "&ext_power EP_TOG", "&kp C_PREV",        "&kp C_VOL_DN",      "&kp C_VOL_UP",      "&kp C_NEXT",
             "&none",             "&kp RALT",          "&to 7",             "&to 6",             "&none",             "&out OUT_TOG",      "&bt BT_SEL 0",      "&bt BT_SEL 1",      "&bt BT_SEL 2",      "&bt BT_SEL 3",
             "&none",             "&none",             "&none",             "&none",             "&none",             "&kp C_STOP",        "&kp C_PP",          "&kp C_MUTE",        "&none",             "&none"
@@ -47,7 +47,7 @@ def create_levels54_keymap():
             "&none",             "&none",             "&mkp MCLK",         "&mkp LCLK",         "&mkp RCLK",         "&mkp RCLK",         "&mkp LCLK",         "&mkp MCLK",         "&none",             "&none"
         ],
         "Fun": [
-            "&kp F12",           "&kp F7",            "&kp F8",            "&kp F9",            "&kp PSCRN",         "&none",             "&to 0",             "&to 9",             "&to 8",             "&bootloader",
+            "&kp F12",           "&kp F7",            "&kp F8",            "&kp F9",            "&kp PSCRN",         "&none",             "&to 0",             "&none",             "&none",             "&bootloader",
             "&kp F11",           "&kp F4",            "&kp F5",            "&kp F6",            "&kp SLCK",          "&none",             "&kp LSHFT",         "&kp LCTRL",         "&kp LALT",          "&kp LGUI",
             "&kp F10",           "&kp F1",            "&kp F2",            "&kp F3",            "&kp PAUSE_BREAK",   "&none",             "&to 7",             "&to 6",             "&kp RALT",          "&none",
             "&none",             "&none",             "&kp K_APP",         "&kp SPACE",         "&kp TAB",           "&none",             "&none",             "&none",             "&none",             "&none"
