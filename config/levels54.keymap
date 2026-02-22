@@ -14,10 +14,10 @@
             display-name = "Base";
             bindings = <
 &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none       
-&none        &kp Q        &kp W        &kp E        &kp R        &kp T        &kp Y        &kp U        &kp I        &kp O        &kp P        &none       
-&none        &mt LGUI A   &mt LALT S   &mt LCTRL D  &mt LSHFT F  &kp G        &kp H        &mt LSHFT J  &mt LCTRL K  &mt LALT L   &mt LGUI SQT &none       
-&none        &lt 6 Z      &mt RALT X   &kp C        &kp V        &kp B        &kp N        &kp M        &kp COMMA    &mt RALT DOT &lt 6 SLASH  &none       
-                                    &lt 3 DEL    &lt 2 BSPC   &lt 5 RET    &lt 4 TAB    &lt 1 SPACE  &lt 7 ESC   
+&kp Q        &kp W        &kp E        &kp R        &kp T        &none        &none        &kp Y        &kp U        &kp I        &kp O        &kp P       
+&mt LGUI A   &mt LALT S   &mt LCTRL D  &mt LSHFT F  &kp G        &none        &none        &kp H        &mt LSHFT J  &mt LCTRL K  &mt LALT L   &mt LGUI SQT
+&lt 6 Z      &mt RALT X   &kp C        &kp V        &kp B        &none        &none        &kp N        &kp M        &kp COMMA    &mt RALT DOT &lt 6 SLASH 
+                                    &lt 5 ESC    &lt 1 SPACE  &lt 4 TAB    &lt 3 RET    &lt 2 BSPC   &lt 7 DEL   
             >;
         };
 
@@ -25,9 +25,9 @@
             display-name = "Nav";
             bindings = <
 &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none       
-&none        &bootloader  &none        &none        &to 0        &none        &kp INS      &kp HOME     &kp PG_DN    &kp PG_UP    &kp END      &none       
-&none        &kp LGUI     &kp LALT     &kp LCTRL    &kp LSHFT    &none        &caps_word   &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &none       
-&none        &none        &kp RALT     &to 2        &to 1        &none        &none        &kp HOME     &kp PG_DN    &kp PG_UP    &kp END      &none       
+&bootloader  &none        &none        &to 0        &none        &none        &none        &none        &none        &none        &none        &none       
+&kp LGUI     &kp LALT     &kp LCTRL    &kp LSHFT    &none        &none        &none        &caps_word   &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT   
+&none        &kp RALT     &to 2        &to 1        &none        &none        &none        &kp INS      &kp HOME     &kp PG_DN    &kp PG_UP    &kp END     
                                     &none        &none        &none        &kp RET      &kp BSPC     &kp DEL     
             >;
         };
@@ -36,9 +36,9 @@
             display-name = "Num";
             bindings = <
 &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none       
-&none        &kp LBKT     &kp N7       &kp N8       &kp N9       &kp RBKT     &none        &to 0        &none        &none        &bootloader  &none       
-&none        &kp SEMI     &kp N4       &kp N5       &kp N6       &kp EQUAL    &none        &kp LSHFT    &kp LCTRL    &kp LALT     &kp LGUI     &none       
-&none        &kp GRAVE    &kp N1       &kp N2       &kp N3       &kp BSLH     &none        &to 2        &to 1        &kp RALT     &none        &none       
+&kp LBKT     &kp N7       &kp N8       &kp N9       &kp RBKT     &none        &none        &none        &to 0        &none        &none        &bootloader 
+&kp SEMI     &kp N4       &kp N5       &kp N6       &kp EQUAL    &none        &none        &none        &kp LSHFT    &kp LCTRL    &kp LALT     &kp LGUI    
+&kp GRAVE    &kp N1       &kp N2       &kp N3       &kp BSLH     &none        &none        &none        &to 2        &to 1        &kp RALT     &none       
                                     &kp DOT      &kp N0       &kp MINUS    &none        &none        &none       
             >;
         };
@@ -47,9 +47,9 @@
             display-name = "Sym";
             bindings = <
 &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none       
-&none        &kp LBRC     &kp AMPS     &kp ASTRK    &kp LPAR     &kp RBRC     &none        &to 0        &none        &none        &bootloader  &none       
-&none        &kp COLON    &kp DLLR     &kp PRCNT    &kp CARET    &kp PLUS     &none        &kp LSHFT    &kp LCTRL    &kp LALT     &kp LGUI     &none       
-&none        &kp TILDE    &kp EXCL     &kp AT       &kp HASH     &kp PIPE     &none        &to 5        &to 4        &kp RALT     &none        &none       
+&kp LBRC     &kp AMPS     &kp ASTRK    &kp LPAR     &kp RBRC     &none        &none        &none        &to 0        &none        &none        &bootloader 
+&kp COLON    &kp DLLR     &kp PRCNT    &kp CARET    &kp PLUS     &none        &none        &none        &kp LSHFT    &kp LCTRL    &kp LALT     &kp LGUI    
+&kp TILDE    &kp EXCL     &kp AT       &kp HASH     &kp PIPE     &none        &none        &none        &to 3        &to 4        &kp RALT     &none       
                                     &kp LPAR     &kp RPAR     &kp UNDER    &none        &none        &none       
             >;
         };
@@ -58,9 +58,9 @@
             display-name = "Mouse";
             bindings = <
 &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none       
-&none        &bootloader  &none        &none        &to 0        &none        &none        &none        &none        &none        &none        &none       
-&none        &kp LGUI     &kp LALT     &kp LCTRL    &kp LSHFT    &none        &none        &none        &none        &none        &none        &none       
-&none        &none        &kp RALT     &to 5        &to 4        &none        &none        &none        &none        &none        &none        &none       
+&bootloader  &none        &none        &to 0        &none        &none        &none        &none        &none        &none        &none        &none       
+&kp LGUI     &kp LALT     &kp LCTRL    &kp LSHFT    &none        &none        &none        &none        &none        &none        &none        &none       
+&none        &kp RALT     &to 3        &to 4        &none        &none        &none        &none        &none        &none        &none        &none       
                                     &none        &none        &none        &mkp RCLK    &mkp LCLK    &mkp MCLK   
             >;
         };
@@ -69,9 +69,9 @@
             display-name = "Media";
             bindings = <
 &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none       
-&none        &bootloader  &none        &none        &to 0        &none        &rgb_ug RGB_TOG &rgb_ug RGB_EFF &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &none       
-&none        &kp LGUI     &kp LALT     &kp LCTRL    &kp LSHFT    &none        &ext_power EP_TOG &kp C_PREV   &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT   &none       
-&none        &none        &kp RALT     &to 7        &to 6        &none        &out OUT_TOG &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none       
+&bootloader  &none        &none        &to 0        &none        &none        &none        &rgb_ug RGB_TOG &rgb_ug RGB_EFF &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI
+&kp LGUI     &kp LALT     &kp LCTRL    &kp LSHFT    &none        &none        &none        &ext_power EP_TOG &kp C_PREV   &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT  
+&none        &kp RALT     &to 7        &to 5        &none        &none        &none        &out OUT_TOG &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
                                     &none        &none        &none        &kp C_STOP   &kp C_PP     &kp C_MUTE  
             >;
         };
@@ -81,7 +81,7 @@
             bindings = <
 &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none       
 &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none       
-&none        &kp LGUI     &kp LALT     &kp LCTRL    &kp LSHFT    &none        &none        &kp LSHFT    &kp LCTRL    &kp LALT     &kp LGUI     &none       
+&kp LGUI     &kp LALT     &kp LCTRL    &kp LSHFT    &none        &none        &none        &none        &kp LSHFT    &kp LCTRL    &kp LALT     &kp LGUI    
 &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none       
                                     &mkp MCLK    &mkp LCLK    &mkp RCLK    &mkp RCLK    &mkp LCLK    &mkp MCLK   
             >;
@@ -91,9 +91,9 @@
             display-name = "Fun";
             bindings = <
 &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none       
-&none        &kp F12      &kp F7       &kp F8       &kp F9       &kp PSCRN    &none        &to 0        &none        &none        &bootloader  &none       
-&none        &kp F11      &kp F4       &kp F5       &kp F6       &kp SLCK     &none        &kp LSHFT    &kp LCTRL    &kp LALT     &kp LGUI     &none       
-&none        &kp F10      &kp F1       &kp F2       &kp F3       &kp PAUSE_BREAK &none        &to 7        &to 6        &kp RALT     &none        &none       
+&kp F12      &kp F7       &kp F8       &kp F9       &kp PSCRN    &none        &none        &none        &to 0        &none        &none        &bootloader 
+&kp F11      &kp F4       &kp F5       &kp F6       &kp SLCK     &none        &none        &none        &kp LSHFT    &kp LCTRL    &kp LALT     &kp LGUI    
+&kp F10      &kp F1       &kp F2       &kp F3       &kp PAUSE_BREAK &none        &none        &none        &to 7        &to 5        &kp RALT     &none       
                                     &kp K_APP    &kp SPACE    &kp TAB      &none        &none        &none       
             >;
         };
